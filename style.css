@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&display=swap");
+/*   Sass Template*/
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.font-baloo {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+font-size-12 {
+  font-size: 12px;
+}
+
+font-size-14 {
+  font-size: 14px;
+}
+
+font-size-16 {
+  font-size: 16px;
+}
+
+font-size-20 {
+  font-size: 20px;
+}
+
+/*color*/
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  color: #00A5C4;
+}
+
+.color-second-bg {
+  background: #00A5C4;
+}
+
+.color-yellow {
+  color: #FFD289;
+}
+
+.color-yellow-bg {
+  background: #FFD289;
+}
+#nav ul li a:hover{
+  color:aqua;
+}
+
+/*Top sales template*/
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span,
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  font-size: 35px;
+  color: #003859;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev span {
+  margin-left: -4rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next span {
+  margin-right: -4rem;
+}
+
+#special-sale .grid.grid-item {
+  margin-right: 1.2rem;
+  margin-top: 1rem;
+}
+
+#card .container2 {
+  width: 600px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  overflow: hidden;
+  background: linear-gradient(#fff, black);
+}
+#card .product {
+  width: 400px;
+  height: 550px;
+  perspective: 1000px;
+}
+#card .product-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+#card .product-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #140019;
+  transform: translateZ(25px);
+}
+#card .product-top {
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(#0794a6, #9bae07);
+  color: #fff;
+}
+#card .product-top h1 {
+  font-size: 85px;
+  margin-left: 20px;
+  font-style: italic;
+  opacity: 0.3;
+}
+#card .product-bottom {
+  padding: 50px 30px;
+}
+#card .product-bottom p {
+  font-size: 12px;
+}
+#card .product-bottom h2 {
+  margin-bottom: 35px;
+  color: #008394;
+  letter-spacing: 1px;
+}
+#card .product-bottom h1 {
+  font-style: 40px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 5px;
+}
+#card span {
+  color: #008394;
+}
+#card .product-bottom button {
+  padding: 9px 25px;
+  background: transparent;
+  color: #008394;
+  border: 1px solid #008394;
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
+}
+#card .color-select {
+  display: flex;
+  float: right;
+  margin-top: -10px;
+}
+#card .select-item {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  padding: 5px;
+  box-shadow: -5px 0 8px 2px rgba(156, 216, 244, 0.5);
+  text-align: center;
+  cursor: pointer;
+}
+#card .select-item img {
+  padding-top: 10%;
+}
+#card .select-item:hover {
+  background: rgba(156, 216, 244, 0.5);
+  box-shadow: none;
+  transition: 0.5s;
+}
+#card .product-top2 {
+  background: linear-gradient(#c370fd, #3be1b8);
+}
+#card .product-back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #fff;
+  transform: translateZ(-25px) rotateY(180deg);
+}
+#card .product-left, #card .product-right {
+  width: 50px;
+  height: 100%;
+  background: #fff;
+  transform: rotateY(90deg);
+  position: absolute;
+  top: 0;
+  left: -25px;
+}
+#card .product-right {
+  transform: rotateY(90deg);
+  left: auto;
+  right: 25px;
+}
+#card #frontImg {
+  width: 340px;
+  top: 70px;
+  left: 20px;
+  position: absolute;
+  transform: translateZ(50px);
+  transition: 1s;
+  z-index: 100;
+}
+#card #backImg {
+  width: 340px;
+  top: 70px;
+  left: -650x;
+  position: absolute;
+  transform: translateZ(50px) rotate(-30deg);
+  transition: 1s;
+  z-index: 100;
+}
+
+/*# sourceMappingURL=style.css.map */
+#icon{
+width:20px;
+cursor: pointer;
+}
